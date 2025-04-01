@@ -40,7 +40,7 @@ experience:
   #   job: Undergraduate Research Assistant
   #   city: Evanston, IL
   #   advisor: Prof. Nick Diakopoulos
-  - years: 2025--Now
+  - years: 2025--Present
     employer: University of California, Berkeley
     group: School of Information
     job: Undergraduate Researcher
@@ -78,7 +78,7 @@ publication:
 #   - name: National Merit Finalist
 #     year: 2024
 # Settings
-mainfont: Latin Modern Roman
+mainfont: Hoefler Txt
 fontsize: 10pt
 lang: en-US
 geometry: a4paper, left=35mm, right=35mm, top=51mm, bottom=17mm
