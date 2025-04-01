@@ -16,7 +16,7 @@ urls:
 
 # intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
 
-skills:
+interests:
   - Cultural analytics, computational humanities, heritage informatics
   - Natural language processing (NLP), computer vision, artificial intelligence ethics
   - Programming languages, human-computer interaction
@@ -61,11 +61,11 @@ experience:
     city: La Jolla, CA
     advisor: Prof. Michael Norman
     description: Systems programming to support analysis of dark matter halos in early universe simulations.
-
-  # - years: 2022
-  #   employer: Hack Club
-  #   job: Software Engineer Intern
-  #   city: Shelburne, VT (Remote)
+  - years: 2022
+    employer: Hack Club
+    job: Software Engineer Intern
+    city: Shelburne, VT (Remote)
+    description: Building web infrastructure for JavaScript-based game engine.
 
 publication:
   - title: A Theory of Scientific Programming Efficacy
@@ -74,9 +74,25 @@ publication:
     venue: ICSE 2024 [International Conference on Software Engineering]
     doi: https://doi.org/10.1145/3597503.3639139
 
-# award:
-#   - name: National Merit Finalist
-#     year: 2024
+# service:
+# -
+
+skills:
+  - TypeScript/JavaScript, React, Svelte, MongoDB
+  - Rust
+  - C/C++
+  - Python
+  - Java
+  - Haskell
+  - UNIX, Git
+
+award:
+  - name: Weinberg College of Arts \& Sciences (WCAS) Summer Grant
+    amount: $4,000
+    year: 2024
+  - name: National Merit Finalist
+    year: 2024
+
 # Settings
 mainfont: Hoefler Txt
 fontsize: 10pt

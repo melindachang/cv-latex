@@ -96,7 +96,7 @@ $if(urls)$
   \href{http://$urls$}{$urls$}\\
   $endfor$
 \end{multicols}
-$endif$
+$endif$\
 
 % \vspace{30pt}
 
@@ -105,17 +105,17 @@ $intro$
 $endif$
 
 \subsection*{Research Interests}
-$if(skills)$
+$if(interests)$
 \begin{itemize}
-    $for(skills)$
-  \item $skills$
+    $for(interests)$
+  \item $interests$
     $endfor$
 \end{itemize}
 $endif$
 
 % \vfill
 
-% \vspace{25pt}
+% \vspace{25pt}\
 
 $if(education)$
 \section*{Education}
@@ -132,7 +132,8 @@ $endif$
 $for(experience)$
 \note{$experience.years$}\textsc{$experience.employer$}\\
 \emph{$experience.job$}$if(experience.group)$, $experience.group$$endif$\\
-$if(experience.advisor)$Advisor: $experience.advisor$$endif$. $experience.description$\\[.2cm]
+$if(experience.advisor)$Advisor: $experience.advisor$. $endif$$experience.description$\\
+$experience.city$\\[.2cm]
 $endfor$
 
 \section*{Publications}
@@ -151,8 +152,15 @@ $endif$
 $if(award)$
 \section*{Awards \& Grants}
 $for(award)$
-$award.name$, $award.year$.
+\note{$award.year$}$award.name$$if(award.amount)$, $award.amount$$endif$.\\[.2cm]
 $endfor$
+$endif$
+
+$if(skills)$
+\section*{Selected Skills}
+$for(skills/allbutlast)$
+$skills$;
+$endfor$ $skills/last$.
 $endif$
 
 \end{document}

@@ -148,6 +148,12 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT ./template.out
+INPUT ./template.out
+INPUT template.out
+INPUT template.out
+INPUT ./template.out
+INPUT ./template.out
 OUTPUT template.out
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
