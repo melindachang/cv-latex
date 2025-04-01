@@ -6,7 +6,7 @@
 % LAYOUT
 %--------------------------------
 % Margins
-\usepackage{geometry} 
+\usepackage{geometry}
 \geometry{$geometry$}
 
 % Do not indent paragraphs
@@ -29,7 +29,7 @@ $endif$
 
 % TYPOGRAPHY
 %--------------------------------
-\usepackage{fontspec} 
+\usepackage{fontspec}
 \usepackage{xunicode}
 \usepackage{xltxtra}
 % converts LaTeX specials (quotes, dashes etc.) to Unicode
@@ -48,11 +48,11 @@ $endif$
 
 % HEADINGS
 %--------------------------------
-\usepackage{sectsty} 
-\usepackage[normalem]{ulem} 
-\sectionfont{\rmfamily\mdseries} 
-\subsectionfont{\rmfamily\mdseries\scshape\normalsize} 
-\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} 
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\sectionfont{\rmfamily\mdseries}
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize}
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}
 
 % PDF SETUP
 %--------------------------------
@@ -78,67 +78,80 @@ $endif$
 
 $if(urls)$
 \begin{multicols}{2}
-$endif$
+  $endif$
 
-$for(address)$
-$address$\\
-$endfor$
+  $for(address)$
+  $address$\\
+  $endfor$
 
-\vspace{-10pt}
+  \vspace{-10pt}
 
-$phone$\\
-\href{mailto:$email$}{$email$}\\
+  $phone$\\
+  \href{mailto:$email$}{$email$}\\
 
+  $if(urls)$
+  \columnbreak
 
-$if(urls)$
-\columnbreak
-
-$for(urls)$
-\href{http://$urls$}{$urls$}\\
-$endfor$
+  $for(urls)$
+  \href{http://$urls$}{$urls$}\\
+  $endfor$
 \end{multicols}
 $endif$
 
-\vspace{30pt}
+% \vspace{30pt}
 
 $if(intro)$
 $intro$
 $endif$
 
-\subsection*{Areas of Interest}
+\subsection*{Research Interests}
 $if(skills)$
 \begin{itemize}
     $for(skills)$
-      \item $skills$
+  \item $skills$
     $endfor$
 \end{itemize}
 $endif$
 
 % \vfill
 
-\vspace{25pt}
-
-\section*{Previous Experience}
-\noindent
-$for(experience)$
-\note{$experience.years$}\textsc{$experience.employer$}\\
-\emph{$experience.job$}\\
-$experience.city$\\[.2cm]
-$endfor$
+% \vspace{25pt}
 
 $if(education)$
 \section*{Education}
 \noindent
 $for(education)$
 \note{$education.year$}\textbf{$education.subject$}$if(education.degree)$, $education.degree$$endif$\\
-\emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\[.2cm]
+\emph{$education.institute$}$if(education.city)$, $education.city$\\
+GPA: $education.gpa$, $education.subtitle$$endif$\\[.2cm]
 $endfor$
 $endif$
+
+\section*{Selected Experience}
+\noindent
+$for(experience)$
+\note{$experience.years$}\textsc{$experience.employer$}\\
+\emph{$experience.job$}$if(experience.group)$, $experience.group$$endif$\\
+$if(experience.advisor)$Advisor: $experience.advisor$$endif$. $experience.description$\\[.2cm]
+$endfor$
+
+\section*{Publications}
+\noindent
+$for(publication)$
+\note{$publication.year$}$publication.authors$, \href{publication.doi}{``$publication.title$.''} $publication.venue$.\\[.2cm]
+$endfor$
 
 $if(languages)$
 \section*{Languages}
 $for(languages)$
 \emph{$languages.language$} ($languages.proficiency$)\\
+$endfor$
+$endif$
+
+$if(award)$
+\section*{Awards \& Grants}
+$for(award)$
+$award.name$, $award.year$.
 $endfor$
 $endif$
 

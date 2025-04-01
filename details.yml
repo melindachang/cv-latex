@@ -1,54 +1,86 @@
 ---
 # Personal details
-name: Friedrich Nietzsche
-address:
-- Humboldtstraße 36
-- 99425 Weimar
-- Prussia
-phone: "+49 03643 545400"
-email: friedrich@thevoid.de
+name: Melinda Chang
+# address:
+#   - Humboldtstraße 36
+#   - 99425 Weimar
+#   - Prussia
+phone: "+1 (858) 342 8852"
+email: melinda@u.northwestern.edu
 # Insert URLs without http://
 urls:
-- wki.pe/friedrich_nietzsche
-- twitter.com/tinynietzsche
+  - melindachang.com
+  - github.com/melindachang
 
 # Sections
 
-intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
+# intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
 
 skills:
-- Aesthetics, Ethics, Metaphysics, Nihilism
-- Psychology, Ontology, Poetry, Value theory
-- Voluntarism, Tragedy, Fact–value distinction
-- Anti-foundationalism, Philosophy of history
-
-experience:
-- years: 1879--1889
-  employer: Freiberufler
-  job: Freier Philosoph
-  city: Sils-Maria
-- years: 1869–-1879
-  employer: Universität Basel
-  job: Professor für klassische Philologie
-  city: Basel
-- years: 1867--1868
-  employer: Preußische Artillerie
-  job: Kanonier
-  city: Naumburg
+  - Cultural analytics, computational humanities, heritage informatics
+  - Natural language processing (NLP), computer vision, artificial intelligence ethics
+  - Programming languages, human-computer interaction
 
 education:
-- year: 1867
-  subject: Philology
-  institute: Universität Leipzig
-  city: Leipzig
-- year: 1864
-  subject: Abitur
-  institute: Schulpforta
-  city: Naumburg
+  # - year: 1867
+  #   subject: Philology
+  #   institute: Universität Leipzig
+  #   city: Leipzig
+  - year: 2024--Present
+    subject: B.A., Computer Science \& English Literature
+    institute: Northwestern University
+    city: Evanston, IL
+    gpa: 3.73
+    subtitle: Minor in Film Studies
 
+experience:
+  # - years: 2025--Present
+  #   employer: Northwestern University
+  #   group: Computational Journalism Lab
+  #   job: Undergraduate Research Assistant
+  #   city: Evanston, IL
+  #   advisor: Prof. Nick Diakopoulos
+  - years: 2025--Now
+    employer: University of California, Berkeley
+    group: School of Information
+    job: Undergraduate Researcher
+    city: Berkeley, CA
+    advisor: Prof. Timothy Tangherlini
+    description: Modeling narrative events and character interaction networks in the Icelandic saga.
+  - years: 2023--2024
+    employer: University of California, San Diego
+    group: Programming Systems Group
+    job: Student Researcher
+    city: La Jolla, CA
+    advisor: Prof. Michael Coblenz
+    description: Towards sensible, ergonomic programming languages and software processes for computational climate scientists.
+  - years: 2022
+    employer: University of California, San Diego
+    group: Laboratory for Computational Astrophysics
+    job: Research Assistant
+    city: La Jolla, CA
+    advisor: Prof. Michael Norman
+    description: Systems programming to support analysis of dark matter halos in early universe simulations.
+
+  # - years: 2022
+  #   employer: Hack Club
+  #   job: Software Engineer Intern
+  #   city: Shelburne, VT (Remote)
+
+publication:
+  - title: A Theory of Scientific Programming Efficacy
+    year: 2024
+    authors: Elizaveta Pertseva, \textit{Melinda Chang}, Ulia Zaman, Michael Coblenz
+    venue: ICSE 2024 [International Conference on Software Engineering]
+    doi: https://doi.org/10.1145/3597503.3639139
+
+# award:
+#   - name: National Merit Finalist
+#     year: 2024
 # Settings
-mainfont: Hoefler Text
+mainfont: Latin Modern Roman
 fontsize: 10pt
-lang: en-GB
+lang: en-US
 geometry: a4paper, left=35mm, right=35mm, top=51mm, bottom=17mm
 ---
+
