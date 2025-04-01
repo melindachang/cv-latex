@@ -152,14 +152,21 @@ $endif$
 $if(award)$
 \section*{Awards \& Grants}
 $for(award)$
-\note{$award.year$}$award.name$$if(award.amount)$, $award.amount$$endif$.\\[.2cm]
+\note{$award.year$}$award.name$$if(award.organization)$, \textit{$award.organization$}$endif$$if(award.amount)$, $award.amount$$endif$.\\[.2cm]
+$endfor$
+$endif$
+
+$if(projects)$
+\section*{Selected Projects}
+$for(projects)$
+\note{$projects.year$}\href{$projects.url$}{\emph{$projects.name$}}. $projects.description$\\[.2cm]
 $endfor$
 $endif$
 
 $if(skills)$
 \section*{Selected Skills}
 $for(skills/allbutlast)$
-$skills$\ \ \textbullet \ \ 
+$skills$\ \ \textbullet \ \
 $endfor$ $skills/last$.
 $endif$
 

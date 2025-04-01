@@ -87,11 +87,24 @@ skills:
   - UNIX, Git
 
 award:
-  - name: Weinberg College of Arts \& Sciences (WCAS) Summer Grant
-    amount: $4,000
-    year: 2024
+  # - name: Weinberg College of Arts \& Sciences Summer Grant
+  #   organization: Northwestern University
+  #   amount: $4,000
+  #   year: 2025
   - name: National Merit Finalist
     year: 2024
+  - name: 4th Place in Computational Systems \& Analysis
+    organization: California Science \& Engineering Fair
+    year: 2023
+  - name: 1st Award in Computer Science \& Systems Software
+    organization: Greater San Diego Science \& Engineering Fair
+    year: 2023
+
+projects:
+  - name: Albio
+    url: https://github.com/melindachang/albio
+    year: 2022--2023
+    description: Lightweight JavaScript compiler to enable reactive web programming directly in markdown. Outperformed Virtual DOM-based frameworks like React, Vite in key benchmarks.
 
 # Settings
 mainfont: Hoefler Txt
