@@ -1,11 +1,11 @@
 # Fdb version 4
 ["xdvipdfmx"] 0 "template.xdv" "template.pdf" "template" 0 -1
-  "template.xdv" 1743476387 3600 3c2159af7f33da87fce040eda1f8dbb7 "xelatex"
+  "template.xdv" 1743476962 3596 a21c788c805dbb26f0731ef988cfac70 "xelatex"
   (generated)
   "template.pdf"
   (rewritten before read)
-["xelatex"] 1743476384.24357 "c:/Users/melin/Repos/cv-boilerplate/template.tex" "template.xdv" "template" 1743476388.11872 2
-  "c:/Users/melin/Repos/cv-boilerplate/template.tex" 1743476383 3693 50176e149944bbf9340c1b4c9ea8ebd7 ""
+["xelatex"] 1743476959.00061 "c:/Users/melin/Repos/cv-boilerplate/template.tex" "template.xdv" "template" 1743476962.94676 2
+  "c:/Users/melin/Repos/cv-boilerplate/template.tex" 1743476952 3712 ebe12ee33a0dcf36789a76fa90d763f8 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1742156908 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1743224216 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1743224065 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -80,9 +80,9 @@
   "c:/texlive/2025/texmf-dist/web2c/texmf.cnf" 1743224029 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "c:/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1742160709 5639799 05e64b2febb1f2dc210f4b831aaf142f ""
   "c:/texlive/2025/texmf.cnf" 1743224216 801 f25e201b77dbc20d1ee7135c9f3fb4a4 ""
-  "template.aux" 1743476387 373 a8b0b5a4325c4680d0197780e5375829 "xelatex"
-  "template.out" 1743476387 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "template.tex" 1743476383 3693 50176e149944bbf9340c1b4c9ea8ebd7 ""
+  "template.aux" 1743476962 373 a8b0b5a4325c4680d0197780e5375829 "xelatex"
+  "template.out" 1743476962 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "template.tex" 1743476952 3712 ebe12ee33a0dcf36789a76fa90d763f8 ""
   (generated)
   "template.aux"
   "template.log"
