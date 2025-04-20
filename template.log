@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.16)  31 MAR 2025 22:24
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.16)  8 APR 2025 22:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1021,6 +1021,24 @@ Package polyglossia Warning: Asking to add empty feature to main font
 
 Missing character: There is no S ("53) in font nullfont!
 Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Package marginnote Info: right page because not two side mode on input line 162.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 162.
+Missing character: There is no , ("2C) in font nullfont!
+
+Package polyglossia Warning: Asking to add empty feature to main font
+(polyglossia)                (Language="$lang$" to langtag "")
+
+
+Package polyglossia Warning: Asking to add empty feature to main font
+(polyglossia)                (Language="$lang$" to langtag "")
+
+Missing character: There is no S ("53) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
 Missing character: There is no l ("6C) in font nullfont!
 Missing character: There is no e ("65) in font nullfont!
 Missing character: There is no c ("63) in font nullfont!
@@ -1035,8 +1053,8 @@ Missing character: There is no e ("65) in font nullfont!
 Missing character: There is no c ("63) in font nullfont!
 Missing character: There is no t ("74) in font nullfont!
 Missing character: There is no s ("73) in font nullfont!
-Package marginnote Info: right page because not two side mode on input line 162.
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 162.
+Package marginnote Info: right page because not two side mode on input line 169.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 169.
 Missing character: There is no . ("2E) in font nullfont!
 
 Package polyglossia Warning: Asking to add empty feature to main font
@@ -1075,7 +1093,47 @@ Package polyglossia Warning: Asking to add empty feature to main font
 Missing character: There is no 1 ("31) in font nullfont!
 [1
 
-] (./template.aux)
+]
+
+Package polyglossia Warning: Asking to add empty feature to main font
+(polyglossia)                (Language="$lang$" to langtag "")
+
+
+Package polyglossia Warning: Asking to add empty feature to main font
+(polyglossia)                (Language="$lang$" to langtag "")
+
+Missing character: There is no R ("52) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no C ("43) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no w ("77) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no k ("6B) in font nullfont!
+Missing character: There is no • ("2022) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+
+
+
+Package polyglossia Warning: Asking to add empty feature to main font
+(polyglossia)                (Language="$lang$" to langtag "")
+
+
+Package polyglossia Warning: Asking to add empty feature to main font
+(polyglossia)                (Language="$lang$" to langtag "")
+
+Missing character: There is no 2 ("32) in font nullfont!
+[2] (./template.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1097,12 +1155,12 @@ Package rerunfilecheck Info: Checksums for `template.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15846 strings out of 473832
- 301880 string characters out of 5733158
- 725876 words of memory out of 5000000
- 38768 multiletter control sequences out of 15000+600000
+ 15847 strings out of 473832
+ 301891 string characters out of 5733158
+ 726876 words of memory out of 5000000
+ 38769 multiletter control sequences out of 15000+600000
  561170 words of font info for 49 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,9n,107p,334b,323s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,9n,107p,334b,324s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template.xdv (1 page, 4060 bytes).
+Output written on template.xdv (2 pages, 4868 bytes).

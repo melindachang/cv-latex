@@ -123,7 +123,7 @@ $if(education)$
 $for(education)$
 \note{$education.year$}\textbf{$education.subject$}$if(education.degree)$, $education.degree$$endif$\\
 \emph{$education.institute$}$if(education.city)$, $education.city$\\
-GPA: $education.gpa$, $education.subtitle$$endif$\\[.2cm]
+GPA: $education.gpa$$if(education.subtitle)$, $education.subtitle$$endif$$endif$\\[.2cm]
 $endfor$
 $endif$
 
@@ -156,6 +156,13 @@ $for(award)$
 $endfor$
 $endif$
 
+\section*{Service}
+\noindent
+$for(service)$
+\note{$service.years$}\emph{$service.title$}, $service.organization$\\
+$service.description$\\[.2cm]
+$endfor$
+
 $if(projects)$
 \section*{Selected Projects}
 $for(projects)$
@@ -167,7 +174,14 @@ $if(skills)$
 \section*{Selected Skills}
 $for(skills/allbutlast)$
 $skills$\ \ \textbullet \ \
-$endfor$ $skills/last$.
+$endfor$ $skills/last$.\\[.2cm]
+$endif$
+
+$if(coursework)$
+\section*{Relevant Coursework}
+$for(coursework/allbutlast)$
+$coursework$\ \ \textbullet \ \
+$endfor$ $coursework/last$.\\[.2cm]
 $endif$
 
 \end{document}

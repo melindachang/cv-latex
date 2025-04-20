@@ -17,9 +17,9 @@ urls:
 # intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
 
 interests:
-  - Cultural analytics, computational humanities, heritage informatics
-  - Natural language processing (NLP), computer vision, artificial intelligence ethics
-  - Programming languages, human-computer interaction
+  - Cultural analytics, computational humanities
+  - Natural language processing (NLP), computer vision, software engineering
+  - Literary theory, critical and cultural studies
 
 education:
   # - year: 1867
@@ -27,11 +27,11 @@ education:
   #   institute: Universität Leipzig
   #   city: Leipzig
   - year: 2024--Present
-    subject: B.A., Computer Science \& English Literature
+    subject: B.A., Computer Science \& Comparative Literary Studies
     institute: Northwestern University
     city: Evanston, IL
     gpa: 3.73
-    subtitle: Minor in Film Studies
+    subtitle: Dean's List (1 quarter)
 
 experience:
   # - years: 2025--Present
@@ -78,7 +78,7 @@ publication:
 # -
 
 skills:
-  - TypeScript/JavaScript, React, Svelte
+  - TypeScript, React, Svelte
   - Rust
   - C/C++
   - Python
@@ -105,6 +105,33 @@ projects:
     url: https://github.com/melindachang/albio
     year: 2022--2023
     description: Lightweight JavaScript compiler to enable reactive web programming directly in markdown. Outperformed Virtual DOM-based frameworks like React, Vite in key benchmarks.
+
+coursework:
+  - Data Structures \& Algorithms
+  - Literary Theory
+  - C/C++ Programming
+  - Intro to Functional Programming
+  - Intro to Computer Systems
+  - Multivariable Calculus
+  - Linear Algebra
+
+service:
+  - title: Founder & Editor-in-Chief
+    organization: Literary Criticsm Undergraduate Journal
+    years: 2025--Present
+    description: Northwestern's premier venue for literary-critical scholarship.
+  - title: Director of Technology
+    organization: WildHacks
+    years: 2024--Present
+    description: Leading software development at Northwestern's largest collegiate hackathon.
+  - title: Outreach Volunteer
+    organization: San Diego Astronomy Association
+    years: 2021--2024
+    description: Lectured on astronomical objects at dark sky sites across southern California.
+  - title: Founder & Director
+    organization: Hack the Wave
+    years: 2023
+    description: Organized San Diego County's biggest-ever high school hackathon.
 
 # Settings
 mainfont: Hoefler Txt
