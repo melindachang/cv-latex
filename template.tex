@@ -132,7 +132,7 @@ $endif$
 $for(experience)$
 \note{$experience.years$}\textsc{$experience.employer$}\\
 \emph{$experience.job$}$if(experience.group)$, $experience.group$$endif$\\
-$if(experience.advisor)$Advisor: $experience.advisor$. $endif$$experience.description$\\
+$if(experience.advisor)$Advisor: $experience.advisor$. $endif$$if(experience.description)$$experience.description$\\$endif$
 $experience.city$\\[.2cm]
 $endfor$
 

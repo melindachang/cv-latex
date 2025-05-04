@@ -65,8 +65,7 @@ experience:
     employer: Hack Club
     job: Software Engineer Intern
     city: Shelburne, VT (Remote)
-    description: Building web infrastructure for JavaScript-based game engine.
-
+    description: Building web tooling for JavaScript-based game engine.
 publication:
   - title: A Theory of Scientific Programming Efficacy
     year: 2024
@@ -87,10 +86,10 @@ skills:
   - UNIX, Bash, Git
 
 award:
-  - name: Weinberg College of Arts \& Sciences Summer Grant
-    organization: Northwestern University
-    amount: $4,000
-    year: 2025
+  # - name: Weinberg College of Arts \& Sciences Summer Grant
+  #   organization: Northwestern University
+  #   amount: $4,000
+  #   year: 2025
   - name: National Merit Finalist
     year: 2024
   - name: 4th Place in Computational Systems \& Analysis
@@ -116,6 +115,9 @@ coursework:
   - Linear Algebra
 
 service:
+  - title: Student Associate
+    organization: Northwestern Block Museum of Art
+    years: 2025--Present
   - title: Founder & Editor-in-Chief
     organization: Critical Culture Undergraduate Journal
     years: 2025--Present
