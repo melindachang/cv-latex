@@ -46,14 +46,14 @@ experience:
     job: Undergraduate Researcher
     city: Berkeley, CA
     advisor: Prof. Timothy Tangherlini
-    description: Modeling narrative events and character interaction networks in the Icelandic saga.
+    description: Apprehending narrative in the Icelandic saga with literary-theoretical and computational methods.
   - years: 2023--2024
     employer: University of California, San Diego
     group: Programming Systems Group
     job: Student Researcher
     city: La Jolla, CA
     advisor: Prof. Michael Coblenz
-    description: Towards sensible, ergonomic programming languages and software processes for computational climate scientists.
+    description: Toward ergonomic programming languages and software processes for computational climate scientists.
   - years: 2022
     employer: University of California, San Diego
     group: Laboratory for Computational Astrophysics
@@ -78,19 +78,19 @@ publication:
 # -
 
 skills:
-  - TypeScript, React, Svelte
+  - TypeScript, React, Svelte, SASS
   - Rust
   - C/C++
   - Python
   - Java
   - Haskell
-  - UNIX, Git
+  - UNIX, Bash, Git
 
 award:
-  # - name: Weinberg College of Arts \& Sciences Summer Grant
-  #   organization: Northwestern University
-  #   amount: $4,000
-  #   year: 2025
+  - name: Weinberg College of Arts \& Sciences Summer Grant
+    organization: Northwestern University
+    amount: $4,000
+    year: 2025
   - name: National Merit Finalist
     year: 2024
   - name: 4th Place in Computational Systems \& Analysis
@@ -108,7 +108,7 @@ projects:
 
 coursework:
   - Data Structures \& Algorithms
-  - Literary Theory
+  - Intro to Literary Theory
   - C/C++ Programming
   - Intro to Functional Programming
   - Intro to Computer Systems
@@ -117,17 +117,16 @@ coursework:
 
 service:
   - title: Founder & Editor-in-Chief
-    organization: Literary Criticsm Undergraduate Journal
+    organization: Critical Culture Undergraduate Journal
     years: 2025--Present
-    description: Northwestern's premier venue for literary-critical scholarship.
+    description: Northwestern's premier undergraduate venue for critical writing.
   - title: Director of Technology
     organization: WildHacks
     years: 2024--Present
-    description: Leading software development at Northwestern's largest collegiate hackathon.
+    description: Leading software development at the largest collegiate hackathon in Chicagoland.
   - title: Outreach Volunteer
     organization: San Diego Astronomy Association
     years: 2021--2024
-    description: Lectured on astronomical objects at dark sky sites across southern California.
   - title: Founder & Director
     organization: Hack the Wave
     years: 2023

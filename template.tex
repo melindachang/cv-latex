@@ -159,8 +159,8 @@ $endif$
 \section*{Service}
 \noindent
 $for(service)$
-\note{$service.years$}\emph{$service.title$}, $service.organization$\\
-$service.description$\\[.2cm]
+\note{$service.years$}\emph{$service.title$}, $service.organization$
+$if(service.description)$\\$service.description$$endif$\\[.2cm]
 $endfor$
 
 $if(projects)$
