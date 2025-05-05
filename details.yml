@@ -18,7 +18,7 @@ urls:
 
 interests:
   - Cultural analytics, computational humanities
-  - Natural language processing (NLP), computer vision, software engineering
+  - Natural language processing (NLP), software engineering
   - Literary theory, critical and cultural studies
 
 education:
@@ -115,9 +115,9 @@ coursework:
   - Linear Algebra
 
 service:
-  - title: Student Associate
-    organization: Northwestern Block Museum of Art
-    years: 2025--Present
+  # - title: Student Associate
+  #   organization: Block Museum of Art
+  #   years: 2025--Present
   - title: Founder & Editor-in-Chief
     organization: Critical Culture Undergraduate Journal
     years: 2025--Present
