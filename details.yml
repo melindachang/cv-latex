@@ -86,10 +86,6 @@ skills:
   - UNIX, Bash, Git
 
 award:
-  # - name: Weinberg College of Arts \& Sciences Summer Grant
-  #   organization: Northwestern University
-  #   amount: $4,000
-  #   year: 2025
   - name: National Merit Finalist
     year: 2024
   - name: 4th Place in Computational Systems \& Analysis
@@ -115,9 +111,10 @@ coursework:
   - Linear Algebra
 
 service:
-  # - title: Student Associate
-  #   organization: Block Museum of Art
-  #   years: 2025--Present
+  - title: Staff Writer
+    organization: Responsible AI Student Organization (RAISO)
+    years: 2025--Present
+    description: On current events in artificial intelligence ethics, tech policy, and computing culture.
   - title: Founder & Editor-in-Chief
     organization: Critical Culture Undergraduate Journal
     years: 2025--Present
@@ -138,6 +135,6 @@ service:
 mainfont: Hoefler Txt
 fontsize: 10pt
 lang: en-US
-geometry: a4paper, left=35mm, right=35mm, top=51mm, bottom=17mm
+geometry: a4paper, left=35mm, right=35mm, top=35mm, bottom=20mm
 ---
 
