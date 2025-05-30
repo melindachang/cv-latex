@@ -7,10 +7,12 @@ name: Melinda Chang
 #   - Prussia
 phone: "+1 (858) 342 8852"
 email: melinda@u.northwestern.edu
+
 # Insert URLs without http://
 urls:
   - melindachang.com
   - github.com/melindachang
+  - linkedin.com/in/melindahchang
 
 # Sections
 
@@ -22,10 +24,6 @@ interests:
   - Literary theory, aesthetics, critical and cultural studies
 
 education:
-  # - year: 1867
-  #   subject: Philology
-  #   institute: Universität Leipzig
-  #   city: Leipzig
   - year: 2024--Present
     subject: B.A., Computer Science \& Comparative Literary Studies
     institute: Northwestern University
@@ -71,13 +69,13 @@ publication:
 # -
 
 skills:
-  - TypeScript, React, Svelte, SASS
-  - Rust
+  - TypeScript, React, Vue, Svelte, SASS, Tailwind
+  - Rust, Axum
   - C/C++
   - Python
   - Java
   - Haskell
-  - UNIX, Bash, Git
+  - UNIX, Shell, Git
 
 award:
   - name: National Merit Finalist
@@ -127,7 +125,8 @@ service:
     description: Organized San Diego County's biggest-ever high school hackathon.
 
 # Settings
-mainfont: Hoefler Txt
+# mainfont: Hoefler Txt
+mainfont: Cardo
 fontsize: 10pt
 lang: en-US
 geometry: a4paper, left=35mm, right=35mm, top=35mm, bottom=20mm

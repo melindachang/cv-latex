@@ -30,8 +30,8 @@ $endif$
 % TYPOGRAPHY
 %--------------------------------
 \usepackage{fontspec}
-\usepackage{xunicode}
-\usepackage{xltxtra}
+% \usepackage{xunicode}
+% \usepackage{xltxtra}
 % converts LaTeX specials (quotes, dashes etc.) to Unicode
 \defaultfontfeatures{Mapping=tex-text}
 \setromanfont [Ligatures={Common}, Numbers={OldStyle}]{$mainfont$}
@@ -121,9 +121,11 @@ $if(education)$
 \section*{Education}
 \noindent
 $for(education)$
-\note{$education.year$}\textbf{$education.subject$}$if(education.degree)$, $education.degree$$endif$\\
+\note{$education.year$}\textbf{$education.subject$}$if(education.degree)$,
+$education.degree$$endif$\\
 \emph{$education.institute$}$if(education.city)$, $education.city$\\
-GPA: $education.gpa$$if(education.subtitle)$, $education.subtitle$$endif$$endif$\\[.2cm]
+GPA: $education.gpa$$if(education.subtitle)$,
+$education.subtitle$$endif$$endif$\\[.2cm]
 $endfor$
 $endif$
 
@@ -132,14 +134,16 @@ $endif$
 $for(experience)$
 \note{$experience.years$}\textsc{$experience.employer$}\\
 \emph{$experience.job$}$if(experience.group)$, $experience.group$$endif$\\
-$if(experience.advisor)$Advisor: $experience.advisor$. $endif$$if(experience.description)$$experience.description$\\$endif$
+$if(experience.advisor)$Advisor: $experience.advisor$.
+$endif$$if(experience.description)$$experience.description$\\$endif$
 $experience.city$\\[.2cm]
 $endfor$
 
 \section*{Publications}
 \noindent
 $for(publication)$
-\note{$publication.year$}$publication.authors$, \href{publication.doi}{``$publication.title$.''} $publication.venue$.\\[.2cm]
+\note{$publication.year$}$publication.authors$,
+\href{publication.doi}{``$publication.title$.''} $publication.venue$.\\[.2cm]
 $endfor$
 
 $if(languages)$
@@ -152,7 +156,9 @@ $endif$
 $if(award)$
 \section*{Awards \& Grants}
 $for(award)$
-\note{$award.year$}$award.name$$if(award.organization)$, \textit{$award.organization$}$endif$$if(award.amount)$, $award.amount$$endif$.\\[.2cm]
+\note{$award.year$}$award.name$$if(award.organization)$,
+\textit{$award.organization$}$endif$$if(award.amount)$,
+$award.amount$$endif$.\\[.2cm]
 $endfor$
 $endif$
 
@@ -166,7 +172,8 @@ $endfor$
 $if(projects)$
 \section*{Selected Projects}
 $for(projects)$
-\note{$projects.year$}\href{$projects.url$}{\emph{$projects.name$}}. $projects.description$\\[.2cm]
+\note{$projects.year$}\href{$projects.url$}{\emph{$projects.name$}}.
+$projects.description$\\[.2cm]
 $endfor$
 $endif$
 
