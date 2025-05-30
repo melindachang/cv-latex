@@ -34,12 +34,6 @@ education:
     subtitle: Dean's List (1 quarter)
 
 experience:
-  # - years: 2025--Present
-  #   employer: Northwestern University
-  #   group: Computational Journalism Lab
-  #   job: Undergraduate Research Assistant
-  #   city: Evanston, IL
-  #   advisor: Prof. Nick Diakopoulos
   - years: 2025--Present
     employer: University of California, Berkeley
     group: School of Information
@@ -107,6 +101,7 @@ coursework:
   - C/C++ Programming
   - Intro to Functional Programming
   - Intro to Computer Systems
+  - Intro to AI
   - Multivariable Calculus
   - Linear Algebra
 
